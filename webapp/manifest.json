@@ -46,7 +46,7 @@
     }
   },
   "sap.ui5": {
-    "flexEnabled": true,
+    "flexEnabled": false,
     "dependencies": {
       "minUI5Version": "1.120.4",
       "libs": {
@@ -92,7 +92,7 @@
       "routes": [
         {
           "name": "RouteView1",
-          "pattern": ":?query:",
+          "pattern": "",
           "target": [
             "TargetView1"
           ]
