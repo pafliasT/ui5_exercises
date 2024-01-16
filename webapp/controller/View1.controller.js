@@ -10,6 +10,9 @@ sap.ui.define([
         return Controller.extend("project1.controller.View1", {
             onInit: function () {
 
+            },
+            onPress: function () {
+                console.log('test');
             }
         });
     });
